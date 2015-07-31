@@ -1,0 +1,29 @@
+body {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: azure;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+h3 {
+    color: cornflowerblue;
+}
+
+.top_bar{
+    background-color: lightgreen;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    width: auto;
+}
+
+.container {
+    font-family: "Courier New", Courier, monospace;
+    padding: 5px 10px;
+}
