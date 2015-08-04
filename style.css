@@ -1,29 +1,57 @@
+/* GENERAL STYLING */
+
 body {
-    margin-right: auto;
-    margin-left: auto;
-    background-color: azure;
+    margin: 0px;
+    font-family: "Courier New", Courier, monospace;
+    background-color: lightcyan;
 }
-
-h1 {
+h1, h2, h3 {
     color: cornflowerblue;
 }
-
-h2 {
-    color: cornflowerblue;
+p {
+    font-family: "Courier New", Courier, monospace;
+}
+a {
+    color: grey;
 }
 
-h3 {
-    color: cornflowerblue;
-}
 
-.top_bar{
-    background-color: lightgreen;
-    padding: 5px 15px;
-    margin-bottom: 5px;
-    width: auto;
-}
+/* CLASS STYLING */
 
 .container {
-    font-family: "Courier New", Courier, monospace;
-    padding: 5px 10px;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+
+.top_bar, .footer {
+    padding: 15px;
+    background-color: lightgreen;
+    text-transform: uppercase;
+}
+.top_bar p {
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+    font-weight: bold;
+}
+.top_bar a, .footer a {
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+.top_bar li, .footer li {
+    display: inline;
+}
+
+.content {
+}
+.q_n_a {
+}
+
+
+/* ID STYLING */
+
+#disclaimer {
+
 }
