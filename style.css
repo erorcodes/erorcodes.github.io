@@ -1,7 +1,7 @@
 /* GENERAL STYLING */
 
 body {
-    margin: 0px;
+    margin: 0;
     font-family: "Courier New", Courier, monospace;
     background: url(http://freshindependence.com/wp-content/uploads/2014/04/a-bat.jpg) no-repeat center center fixed;
 }
@@ -51,3 +51,7 @@ a {
 }
 
 /* ID STYLING */
+
+div#about {
+    background-color: white;
+}
