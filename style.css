@@ -61,7 +61,7 @@ body {
 /**********************************/
 /* POSITIONING */
 
-.top_bar p, .footer p {
+.top_bar p, .top_bar ul li, .footer p {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -72,6 +72,7 @@ body {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 #menu li {
