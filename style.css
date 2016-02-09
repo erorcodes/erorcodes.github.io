@@ -1,57 +1,129 @@
-/* GENERAL STYLING */
+
+/*
+CSS "POINTS" RULES FOR HIERARCHY
+
+Inline styling:     1,0,0,0
+ID value:           0,1,0,0
+Class value:        0,0,1,0
+Element reference:  0,0,0,1
+
+https://css-tricks.com/specifics-on-css-specificity/
+
+*/
+
+/**********************************/
+/* GENERAL */
+
+html {
+    overflow-x: hidden;
+}
+
+
+/**********************************/
+/* BACKGROUNDS */
 
 body {
-    margin: 0;
-    font-family: "Courier New", Courier, monospace;
     background: url(http://freshindependence.com/wp-content/uploads/2014/04/a-bat.jpg) no-repeat center center fixed;
-}
-h1, h2, h3 {
-    color: cornflowerblue;
-}
-p {
-    font-family: "Courier New", Courier, monospace;
-    color: cornflowerblue
-    font-size: 100px;
-}
-a {
-    color: cornflowerblue;
-}
-
-
-/* CLASS STYLING */
-
-.container {
-    padding-left: 60px;
-    padding-right: 100px;
 }
 
 .top_bar, .footer {
-    padding: 15px;
     background-color: lightgreen;
-    text-transform: uppercase;
 }
-.top_bar p {
-    font-size: 100px;
-    position: relative;
-    top: 15px;
-    left: 50px;
-    font-weight: bold;
+
+.container {
+    background-color: white;
 }
+
+
+/**********************************/
+/* PADDING */
+
+body {
+    margin: 0;
+}
+
+.top_bar, .footer {
+    padding: 0;
+}
+
 .top_bar a, .footer a {
     color: black;
     font-size: 50px;
     padding: 10px;
 }
-.top_bar li, .footer li {
-    display: inline;
+
+.container {
+    padding: 40px;
+    margin: 10px;
+}
+
+
+/**********************************/
+/* POSITIONING */
+
+.top_bar p, .footer p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#menu {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu li {
+    display: block;
+}
+
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact_me ul li {
+    display: block;
+}
+
+.footer {
+    position: relative;
+}
+
+
+/**********************************/
+/* FONTS */
+
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1, h2, h3, p, a {
+    color: cornflowerblue;
+}
+
+.top_bar {
+    text-transform: uppercase;
+}
+
+.top_bar p {
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+}
+
+.top_bar a {
+    font-size: 50px;
+    color: black;
 }
 
 .content {
-    font-size: 50px;
+    font-size: 20px;
 }
 
-/* ID STYLING */
-
-div#about {
-    background-color: white;
+.footer {
+    color: black;
+    font-size: 20px;
 }
