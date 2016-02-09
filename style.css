@@ -61,22 +61,17 @@ body {
 /**********************************/
 /* POSITIONING */
 
-.top_bar p, .top_bar ul li, .footer p {
-    width: 50%;
+.top_bar p, .footer p {
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
 #menu {
-    width: 75%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-#menu li {
-    display: block;
 }
 
 .container {
@@ -85,7 +80,7 @@ body {
     margin-right: auto;
 }
 
-#contact_me ul li {
+#contact_me {
     display: block;
 }
 
