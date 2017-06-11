@@ -18,108 +18,56 @@ html {
     overflow-x: hidden;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 /**********************************/
-/* BACKGROUNDS */
 
 body {
-    background: url(http://freshindependence.com/wp-content/uploads/2014/04/a-bat.jpg) no-repeat center center fixed;
+    font-family: "Courier New", Courier, monospace;
+    /*background: url(http://freshindependence.com/wp-content/uploads/2014/04/a-bat.jpg) no-repeat center center fixed;*/
 }
 
-.top_bar, .footer {
-    background-color: lightgreen;
-}
-
-.container {
-    background-color: white;
-}
-
-
-/**********************************/
-/* PADDING */
-
-body {
-    margin: 0;
-}
-
-.top_bar, .footer {
-    padding: 0;
-}
-
-.top_bar a, .footer a {
+.row {
+    margin: auto;
+    text-align: center;
     color: black;
+}
+
+#top {
+    text-transform: uppercase;
+    background-color: aqua;
+}
+
+#top p {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#top a {
     font-size: 50px;
     padding: 10px;
 }
 
-.container {
-    padding: 40px;
-    margin: 10px;
-}
-
-
-/**********************************/
-/* POSITIONING */
-
-.top_bar p, .footer p {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
 #menu {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    background-color: coral;
 }
 
-.container {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+#about {
+    background-color: chartreuse;
 }
 
-#contact_me {
-    display: block;
+#software {
+    background-color: black;
+    color: white;
 }
 
-.footer {
-    position: relative;
+#contact {
+    background-color: blueviolet;
 }
 
-
-/**********************************/
-/* FONTS */
-
-body {
-    font-family: "Courier New", Courier, monospace;
-}
-
-h1, h2, h3, p, a {
-    color: cornflowerblue;
-}
-
-.top_bar {
-    text-transform: uppercase;
-}
-
-.top_bar p {
-    font-size: 80px;
-    font-weight: bold;
-    color: black;
-}
-
-.top_bar a {
-    font-size: 50px;
-    color: black;
-}
-
-.content {
+#footer {
     font-size: 20px;
-}
-
-.footer {
-    color: black;
-    font-size: 20px;
+    background-color: bisque;
 }
