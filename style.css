@@ -26,52 +26,34 @@ html {
 
 body {
     font-family: "Courier New", Courier, monospace;
-    /*background: url(http://freshindependence.com/wp-content/uploads/2014/04/a-bat.jpg) no-repeat center center fixed;*/
 }
 
 .row {
-    margin: auto;
+    padding: 10% 5% 20% 5%;
     text-align: center;
+    color: black;
+}
+.row a {
     color: black;
 }
 
 #top {
     text-transform: uppercase;
-    background-color: aqua;
-}
-
-#top p {
+    background-color: blueviolet;
     font-size: 80px;
     font-weight: bold;
 }
 
-#top a {
-    font-size: 50px;
-    padding: 10px;
-}
-
 #menu {
-    background-color: coral;
+    font-size: 50px;
 }
 
-#about {
-    background-color: chartreuse;
-}
-
-#software {
+#about, #about a {
     background-color: black;
     color: white;
 }
 
-#software a {
-    color: white;
-}
-
 #contact {
-    background-color: blueviolet;
-}
-
-#footer {
-    font-size: 20px;
     background-color: bisque;
+    padding: 20% 5% 20% 5%;
 }
