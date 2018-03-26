@@ -1,5 +1,3 @@
-# erikaetc.github.io
-
 ## TODO:
 
 - Update texts
