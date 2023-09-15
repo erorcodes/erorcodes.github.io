@@ -32,25 +32,28 @@ body {
     align-content: space-around;
     margin: 0;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: bold;
+}
+
 .row {
     text-align: center;
     color: black;
     width: 100%;
 }
+
 .row a {
     color: black;
-}
-
-#header {
-    display: flex;
-    flex-direction: column;
-    text-transform: uppercase;
-}
-#header a {
-    color: black;
-    text-decoration: none;
-    font-size: 80px;
-    font-weight: bold;
 }
 
 #contact {
